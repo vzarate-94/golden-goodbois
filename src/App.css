@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: pink;
 }
 
 Nav {
@@ -19,7 +20,7 @@ Nav {
 }
 
 #wrapper {
-  width: 500px;
+  width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -31,17 +32,18 @@ Nav {
   flex-wrap: wrap;
 }
 
-#bigimage {
-  height: 100%;
+#bigImage {
+  height: 600px;
   width: 100%;
   object-fit: cover;
+  border: 5px solid darkgray;
 }
 
 .thumb {
   flex: 1;
   margin: 5px;
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   display: block;
   cursor: pointer;
   object-fit: cover;

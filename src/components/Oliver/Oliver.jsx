@@ -12,7 +12,7 @@ function Oliver() {
   const images = imagesArr.map((image, i) => {
     return (
       <img
-          style={{ border: bigImage === image.img ? "3px solid green" : "" }}
+          style={{ border: bigImage === image.img ? "3px solid blue" : "" }}
           onClick={() => handleClick(image.img)}
           src={image.img}
           alt={image.city}
@@ -25,10 +25,10 @@ function Oliver() {
   return (
     <div>
       <h1>Oliver good boy!</h1>
-      <span id="wrapper">
+      <div id="wrapper">
         <div id="thumbnails">{images}</div>
-        <img src={bigImage}  id="bigIimage" alt="bigImage"/>
-      </span>
+        <img src={bigImage}  id="bigImage" alt="bigImage"/>
+      </div>
     </div>
   )
 }

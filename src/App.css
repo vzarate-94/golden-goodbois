@@ -22,7 +22,7 @@ Nav {
 }
 
 #wrapper {
-  width: 800px;
+  width: 950px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -43,10 +43,11 @@ Nav {
 
 .thumb {
   flex: 1;
-  margin: 5px;
+  margin: 3px;
   height: 200px;
-  width: 200px;
-  display: block;
+  width: 295px;
+  display: flex;
+  flex-direction: row;
   cursor: pointer;
   object-fit: cover;
 }
@@ -79,4 +80,38 @@ Nav {
 
 .names {
   color: #2a2a3c;
+}
+
+@media only screen and (max-width: 600px) {
+  #wrapper {
+    width: 400px;
+    padding: 20px;
+    margin: auto
+    
+  }
+  
+  #thumbnails {
+    position: relative;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #bigImage {
+    height: 400px;
+    width: 80%;
+    object-fit: cover;
+    border: 5px solid #2a2a3c;
+  }
+  
+  .thumb {
+    flex: 1;
+    margin: 3px;
+    height: 200px;
+    width: 105px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    object-fit: cover;
+  }
 }

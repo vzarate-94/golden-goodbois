@@ -6,6 +6,8 @@ import hiker from '../assets/images/hiker.jpeg'
 import llama from '../assets/images/llama.jpeg'
 import spooky from '../assets/images/spooky.jpeg'
 import bandana from '../assets/images/bandana.jpeg'
+import oscarTeef from '../assets/images/oscarTeef.jpeg'
+import blanky from '../assets/images/blanky.jpeg'
 
 const oscarImagesArr = [
   {
@@ -13,9 +15,14 @@ const oscarImagesArr = [
     city: "london"
   },
   {
-    img:
-      dishes,
-    city: "amsterdam"
+    img: llama
+      ,
+    city: "dubai"
+  },
+  {
+    img: oscarTeef
+      ,
+    city: "dubai"
   },
   {
     img:
@@ -28,12 +35,17 @@ const oscarImagesArr = [
     city: "tokyo"
   },
   {
+    img:
+      dishes,
+    city: "amsterdam"
+  },
+  {
     img: hiker
       ,
     city: "dallas"
   },
   {
-    img: llama
+    img: blanky
       ,
     city: "paris"
   },
@@ -46,7 +58,8 @@ const oscarImagesArr = [
     img: bandana
       ,
     city: "dubai"
-  }
+  },
+  
 ];
 
 export default oscarImagesArr;

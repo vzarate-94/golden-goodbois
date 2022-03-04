@@ -6,10 +6,20 @@ import biggerSleeps from './images/biggerSleeps.jpeg'
 import sleepyBoy from './images/SleepyBoy.jpeg'
 import teef from './images/Teef.jpeg'
 import winery from './images/winery.jpeg'
+import neck from './images/neck.jpeg'
+import baby from './images/baby.jpeg'
 
 const oliverImagesArr = [
   {
+    img: baby,
+    city: "london"
+  },
+  {
     img: pretzel,
+    city: "london"
+  },
+  {
+    img: neck,
     city: "london"
   },
   {

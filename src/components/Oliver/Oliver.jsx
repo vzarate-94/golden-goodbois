@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import oliverImagesArr from '../../assets/oliverData'
+import Animation2 from '../misc/Animation2'
+import nature from '../../assets/animation/nature.json'
 
 import '../../App.css'
 
@@ -30,6 +32,9 @@ function Oliver() {
         <div id="thumbnails">{images}</div>
         <img src={bigImage}  id="bigImage" alt="bigImage"/>
       </div>
+      <div>
+          <Animation2 animData={nature}></Animation2>
+        </div>
     </div>
   )
 }

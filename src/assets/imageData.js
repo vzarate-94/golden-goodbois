@@ -1,11 +1,11 @@
-import pretzel from '../src/images/pretzel.jpeg'
-import ventBoy from '../src/images/ventBoy.jpeg'
-import beachBoy from '../src/images/beachBoy.jpeg'
-import mostHandsome from '../src/images/mostHandsome.jpeg'
-import biggerSleeps from '../src/images/biggerSleeps.jpeg'
-import sleepyBoy from '../src/images/SleepyBoy.jpeg'
-import teef from '../src/images/Teef.jpeg'
-import winery from '../src/images/winery.jpeg'
+import pretzel from './images/pretzel.jpeg'
+import ventBoy from './images/ventBoy.jpeg'
+import beachBoy from './images/beachBoy.jpeg'
+import mostHandsome from './images/mostHandsome.jpeg'
+import biggerSleeps from './images/biggerSleeps.jpeg'
+import sleepyBoy from './images/SleepyBoy.jpeg'
+import teef from './images/Teef.jpeg'
+import winery from './images/winery.jpeg'
 
 const imagesArr = [
   {

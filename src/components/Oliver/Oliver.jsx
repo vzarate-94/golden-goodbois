@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import imagesArr from '../../imageData'
+import imagesArr from '../../assets/imageData'
+
 import '../../App.css'
 
 function Oliver() {

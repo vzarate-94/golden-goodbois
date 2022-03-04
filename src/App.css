@@ -17,3 +17,32 @@ Nav {
   align-items: center;
   list-style: none;
 }
+
+#wrapper {
+  width: 100%;
+  margin: 5% auto;
+  padding: 20px;
+}
+
+#thumbnails {
+  position: relative;
+  display: block;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#bigimage {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.thumb {
+  flex: 1;
+  margin: 5px;
+  height: 200px;
+  width: 200px;
+  display: block;
+  cursor: pointer;
+  object-fit: cover;
+}

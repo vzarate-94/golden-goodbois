@@ -10,7 +10,7 @@ const Animation = (props) => {
                 animationData={props.animData}
                 play
                 speed={1}
-                style={{ width: '65%', height: '65%' }}
+                style={{ width: '200%', height: '200%' }}
             />
         </div>
     )

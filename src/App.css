@@ -48,3 +48,24 @@ Nav {
   cursor: pointer;
   object-fit: cover;
 }
+
+.landing {
+  display: flex;
+  height: 94vh;
+}
+
+.left-container{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0B0B12;
+}
+
+.right-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

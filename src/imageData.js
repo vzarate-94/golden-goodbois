@@ -1,7 +1,8 @@
+import pretzel from '../src/images/pretzel.jpeg'
+
 const imagesArr = [
   {
-    img:
-      "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60",
+    img: pretzel,
     city: "london"
   },
   {

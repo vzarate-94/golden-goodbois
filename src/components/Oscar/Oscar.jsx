@@ -3,7 +3,7 @@ import oliverImagesArr from '../../assets/oliverData'
 
 import '../../App.css'
 
-function Oliver() {
+function Oscar() {
   const [bigImage, setBigImage] = useState(oliverImagesArr[0].img)
 
   const handleClick = (imgUrl) => {
@@ -25,7 +25,7 @@ function Oliver() {
   
   return (
     <div>
-      <h1 className='names'>Oliver Twist Hyde!</h1>
+      <h1 className='names'>Oscar Wilde Hyde!</h1>
       <div id="wrapper">
         <div id="thumbnails">{images}</div>
         <img src={bigImage}  id="bigImage" alt="bigImage"/>
@@ -34,4 +34,4 @@ function Oliver() {
   )
 }
 
-export default Oliver
+export default Oscar

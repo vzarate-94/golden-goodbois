@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: pink;
+  color: pink;
 }
 
 Nav {
@@ -8,7 +9,8 @@ Nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background-color: rgb(89, 89, 99);
+  background-color: #2a2a3c;
+  border: 2px solid pink;
 }
 
 .nav-links {
@@ -36,7 +38,7 @@ Nav {
   height: 600px;
   width: 100%;
   object-fit: cover;
-  border: 5px solid darkgray;
+  border: 5px solid #2a2a3c;
 }
 
 .thumb {
@@ -57,9 +59,11 @@ Nav {
 .left-container{
   width: 50%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #0B0B12;
+  background: #2a2a3c;
+  color: pink;
 }
 
 .right-container {
@@ -67,5 +71,12 @@ Nav {
   display: flex;
   align-items: center;
   justify-content: center;
+}
 
+.intro {
+  width: 80%;
+}
+
+.names {
+  color: #2a2a3c;
 }

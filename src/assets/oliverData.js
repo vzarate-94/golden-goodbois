@@ -7,7 +7,7 @@ import sleepyBoy from './images/SleepyBoy.jpeg'
 import teef from './images/Teef.jpeg'
 import winery from './images/winery.jpeg'
 
-const imagesArr = [
+const oliverImagesArr = [
   {
     img: pretzel,
     city: "london"
@@ -49,4 +49,4 @@ const imagesArr = [
   }
 ];
 
-export default imagesArr;
+export default oliverImagesArr;

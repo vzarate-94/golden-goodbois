@@ -9,9 +9,10 @@ Nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background-color: #2a2a3c;
+  background-color: #181830;
   border: 2px solid pink;
 }
+
 
 .nav-links {
   width: 30%;
@@ -74,6 +75,11 @@ Nav {
   justify-content: center;
 }
 
+#lottie {
+  width: 150%;
+  height: 150%;
+}
+
 .intro {
   width: 80%;
 }
@@ -82,7 +88,10 @@ Nav {
   color: #2a2a3c;
 }
 
-@media only screen and (max-width: 600px) {
+
+
+
+@media only screen and (max-width: 680px) {
   #wrapper {
     width: 400px;
     padding: 20px;
@@ -113,5 +122,10 @@ Nav {
     flex-direction: row;
     cursor: pointer;
     object-fit: cover;
+  }
+
+  #lottie {
+    width: 95%;
+    height: 95%;
   }
 }

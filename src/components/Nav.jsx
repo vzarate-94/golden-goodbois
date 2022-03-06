@@ -5,13 +5,14 @@ import '../App.css'
 function Nav() {
 
   const navStyle = {
-    color: 'pink'
+    color: 'pink',
+    'textDecoration': 'none',
   }
 
   return (
     <nav>
       <Link to="/">
-      <h3 style={navStyle}>Home</h3>
+      <h1 id="home-id" style={navStyle}>Home</h1>
       </Link>
       <ul className='nav-links'>
         <Link style={navStyle} to="/oliver">

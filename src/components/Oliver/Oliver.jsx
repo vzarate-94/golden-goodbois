@@ -26,7 +26,7 @@ function Oliver() {
   })
   
   return (
-    <div>
+    <div className='dog-pages'>
       <h1 className='names'>Oliver Twist Hyde!</h1>
       <div id="wrapper">
         <div id="thumbnails">{images}</div>

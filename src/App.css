@@ -53,6 +53,10 @@ Nav {
   object-fit: cover;
 }
 
+.dog-pages {
+  margin-top: 5%;
+}
+
 .landing {
   display: flex;
   height: 94vh;
@@ -80,14 +84,32 @@ Nav {
   height: 150%;
 }
 
-.intro {
+.intro{
   width: 80%;
+  margin-bottom: 10%;
 }
 
 .names {
   color: #2a2a3c;
 }
 
+.oliver-btn {
+  background-color: rgb(128, 157, 250);
+  width: 85%;
+}
+
+.oliver-btn:hover {
+  background-color: rgb(50, 55, 184);
+}
+
+.oscar-btn {
+  background-color: rgb(249, 84, 111);
+  width: 85%;
+}
+
+.oscar-btn:hover {
+  background-color: rgb(162, 39, 96);
+}
 
 
 

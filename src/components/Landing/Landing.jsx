@@ -13,17 +13,20 @@ function Landing() {
               <h1>Hello!</h1>
               <h2>Click on either Oliver or Oscar and enter a world of pure cuteness and cuddleness! </h2>
               <h2>They wont bite!</h2>
-              <Link to="/Oliver">
-              <button type="button" class="btn btn-warning">Warning</button>
-              </Link>
-            </span>
+                <div className="d-grid gap-2">
+                  <Link to='/oliver'>
+                      <button className="btn oliver-btn" type="button"><strong>Oliver</strong></button>
+                  </Link>
+                  <Link to='/oscar'>
+                      <button className="btn oscar-btn" type="button"><strong>Oscar</strong></button>
+                  </Link>
+                </div>
+          </span>
         </div>
-
         <div className='right-container'>
           <Animation animData={golden}></Animation>
         </div>
     </div>
-    
   )
 }
 

@@ -45,7 +45,7 @@ Nav {
 .thumb {
   flex: 1;
   margin: 3px;
-  height: 200px;
+  height: 250px;
   width: 295px;
   display: flex;
   flex-direction: row;
@@ -93,7 +93,7 @@ Nav {
   color: #2a2a3c;
 }
 
-.oliver-btn {
+.oliver-btn { 
   background-color: rgb(128, 157, 250);
   width: 85%;
 }

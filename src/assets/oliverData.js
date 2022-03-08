@@ -12,7 +12,7 @@ import baby from './images/baby.jpeg'
 const oliverImagesArr = [
   {
     img: baby,
-    city: "london"
+    city: "london",
   },
   {
     img: pretzel,

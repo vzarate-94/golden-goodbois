@@ -12,7 +12,7 @@ function Nav() {
   return (
     <nav>
       <Link to="/">
-      <button className="btn oliver-btn" type="button"><strong>Portfolio</strong></button>
+      <button className="btn oliver-btn" type="button"><strong>Home</strong></button>
       </Link>
       <ul className='nav-links'>
         <Link style={navStyle} to="/oliver">

@@ -10,7 +10,8 @@ function Weather() {
 
   return (
     <div className='weather-app'>
-      <h1>Weather for {date}</h1>
+      <h1>Charlottesville, VA</h1>
+      <h3>Weather for {date}</h3>
       <div>
         <Card />
       </div>

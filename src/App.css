@@ -127,6 +127,7 @@ Nav {
   margin: 5px;
   justify-content: center;
   align-items: center;
+  border-radius: 5%;
 }
 
 .weather-app {

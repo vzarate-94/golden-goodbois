@@ -20,6 +20,9 @@ function Landing() {
                   <Link to='/oscar'>
                       <button className="btn oscar-btn" type="button"><strong>Oscar</strong></button>
                   </Link>
+                  <Link to='/weather'>
+                      <button className="btn oscar-btn" type="button"><strong>Weather</strong></button>
+                  </Link>
                 </div>
           </span>
         </div>

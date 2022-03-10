@@ -4,6 +4,7 @@ import Nav from '../src/components/Nav'
 import Oliver from '../src/components/Oliver/Oliver'
 import Oscar from '../src/components/Oscar/Oscar'
 import Landing from './components/Landing/Landing';
+import Weather from './components/Weather/Weather';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Landing />}/>
           <Route path="/Oliver" element={<Oliver />} />
           <Route path="/Oscar" element={<Oscar />} />
+          <Route path="/Weather" element={<Weather />} />
         </Routes>
         
       </div>
